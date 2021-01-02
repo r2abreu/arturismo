@@ -30,7 +30,6 @@
 
 .modal > div {
 	position: relative;
-	border: 2px solid red;
 	top: -50vh;
 	width: 60%;
 	padding: 1.875rem 3.750rem;

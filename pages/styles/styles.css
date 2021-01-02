@@ -24,13 +24,6 @@ body {
 	position: relative;
 }
 
-@media screen and (max-width: 80rem) {
-	body {
-		display: flex;
-		flex-direction: column;
-	}
-}
-
 .left-container {
 	grid-area: left-container;
 	box-shadow: 0.313rem 0.250rem 2.250rem #000000;
@@ -40,12 +33,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-}
-
-@media screen and (max-width: 80rem) {
-	.left-container:not(.logo) {
-		display: none;
-	}
 }
 
 .right-container {
@@ -61,12 +48,6 @@ body {
 	width: 14rem;
 	height: 4.813rem;
 	margin: 0;
-}
-
-@media screen and (max-width: 40.625rem) {
-	.logo {
-		display: none;
-	}
 }
 
 .logo img {
@@ -119,12 +100,6 @@ header .hamburguer {
 	margin: 0;
 }
 
-@media screen and (max-width: 80rem) {
-	header .hamburguer {
-		visibility: hidden;
-	}
-}
-
 ul li a {
 	text-decoration: none;
 	color: #000;
@@ -156,12 +131,6 @@ ul li a:hover {
 	margin-top: 10px;
 	color: #000;
 	border: none;
-}
-
-@media screen and (max-width: 80rem) {
-	.search-bar input {
-		width: 100%;
-	}
 }
 
 .gallery {
@@ -251,4 +220,27 @@ footer {
 
 span img {
 	width: 30px;
+}
+
+@media screen and (max-width: 700px) {
+	body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.left-container:not(.logo) {
+		display: none;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	header .hamburguer {
+		visibility: hidden;
+	}
+
+	.search-bar input {
+		width: 100%;
+	}
 }
