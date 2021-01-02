@@ -11,9 +11,10 @@ Esta website fue realizada con el objetivo de mostrar los conceptos de Layout es
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Arturismo | Home</title>
-        <link rel="stylesheet" href="./styles/styles.css" type="text/css"/>
+        <title>Arturismo | Roma</title>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,900;1,700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="../pages/styles/styles.css" type="text/css"/>
+        <link rel="stylesheet" href="./styles/romaStyles.css" type="text/css"/>
     </head>
     <body>
         <div class="right-container">
@@ -34,7 +35,7 @@ Esta website fue realizada con el objetivo de mostrar los conceptos de Layout es
                             </a>
                         </li>
                         <li>
-                            <a href="./contact.html">
+                            <a href="#">
                                 Contactanos
                             </a>
                         </li>
@@ -47,41 +48,39 @@ Esta website fue realizada con el objetivo de mostrar los conceptos de Layout es
             </header>
             <main>
                 <section>
-                    <h2>Descubre</h2>
-                    <ul class="gallery-header">
-                        <li>Descubre</li>
-                        <li>Lugares</li>
-                        <li>Alojamientos</li>
-                    </ul>
+                    <h2>Visita</h2>
                     <ul class="gallery">
                         <li>
                             <figure>
-                                <a href="./barcelona.html" >
-                                    <img src="../assets/barcelona/barcelona.jpg" alt="barcelona" title="Viaja a Barcelona" />
-                                </a>
                                 <figcaption>
-                                    Barcelona
+                                    Coliseo
+                                    <img class="figcaption-stars" src="../assets/vectors/fullStar.png" title="" alt="star rating" />
                                 </figcaption>
+                                <a href="#" >
+                                    <img src="../assets/roma/coliseo.jpg" alt="coliseo" title="Visita El Coliseo" />
+                                </a>
                             </figure>
                         </li>
                         <li>
-                            <figure>
-                                <a href="./paris.html">
-                                    <img src="../assets/paris/paris.jpg" alt="paris" title="Viaja a Paris" />
-                                </a>
+                            <figure class="second-figures">
                                 <figcaption>
-                                    París
+                                    Foro Romano
+                                    <img class="figcaption-stars" src="../assets/vectors/star.png" title="" alt="star rating" />
                                 </figcaption>
+                                <a href="#">
+                                    <img src="../assets/roma/foroRomano.jpg" alt="foro romano" title="Disfruta del Foro Romano" />
+                                </a>
                             </figure>
                         </li>
                         <li>
-                            <figure>
-                                <a href="./rome.html">
-                                    <img src="../assets/roma/roma.jpg" alt="roma" title="Viaja a Roma" />
-                                </a>
+                            <figure class="second-figures">
                                 <figcaption>
-                                    Roma
+                                    Fontana di Trevi
+                                    <img class="figcaption-stars" src="../assets/vectors/star.png" title="" alt="star rating" />  
                                 </figcaption>
+                                <a href="#">
+                                    <img src="../assets/roma/fontana.jpg" alt="fontana trevi" title="Disfruta de la Fontana di Trevi" />
+                                </a>
                             </figure>     
                         </li>
                     </ul>
@@ -90,7 +89,22 @@ Esta website fue realizada con el objetivo de mostrar los conceptos de Layout es
                     </figure>
                 </section>
             </main>
-        </div> <!-- right container ends-->
+        </div>
+        <div class="left-container">
+            <aside>
+                <figure class="logo">
+                    <a href="./index.html" >
+                        <img src="../assets/index/logo.png" alt="home image" />
+                    </a>
+                </figure>
+                <article>
+                    <h1>Roma</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin leo erat, facilisis nec nisl at, imperdiet gravida magna. Integer blandit tristique sapien, eu congue purus vehicula in. Aenean tristique tincidunt ultrices. Donec orci sem, fermentum quis luctus sed, rutrum ut velit. Nullam enim nunc, pretium a dignissim vitae, porttitor vitae mauris. Mauris erat velit, imperdiet pulvinar sem at, interdum eleifend erat. 
+                    </p>
+                </article>
+            </aside>
+        </div>   
         <footer>
             <div class="social">
                 <span>
@@ -105,26 +119,11 @@ Esta website fue realizada con el objetivo de mostrar los conceptos de Layout es
                 <span>
                     <img src="../assets/vectors/youtube.svg" alt="" title="" />
                 </span>
-                <p>
-                    Derechos Reservados  © Arturismo 2020
-                </p>
             </div>
-        </footer>
-        <figure class="logo">
-            <a href="./index.html" >
-                <img src="../assets/index/logo.png" alt="home image" />
-            </a>
-        </figure>
-        <div class="left-container">
-            <aside>
-                <article>
-                    <h1>Viaja mas...</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin leo erat, facilisis nec nisl at, imperdiet gravida magna. Integer blandit tristique sapien, eu congue purus vehicula in. Aenean tristique tincidunt ultrices. Donec orci sem, fermentum quis luctus sed, rutrum ut velit. Nullam enim nunc, pretium a dignissim vitae, porttitor vitae mauris. Mauris erat velit, imperdiet pulvinar sem at, interdum eleifend erat. 
-                    </p>
-                </article>
-            </aside>
-        </div> <!--left container ends-->
+            <p>
+                Derechos Reservados  © Arturismo 2020
+            </p>
+        </footer> 
         <div id="login" class="modal">
             <a href="#"></a>
             <div>
