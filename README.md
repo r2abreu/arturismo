@@ -1,12 +1,12 @@
-# Kozue Mirai
+# Arturismo
 
-Empresa de diseño de interiores ficticia.
+Agencia de viajes ficticia.
 
 ![Screenshot](assets/screenshot.png)
 
 ## Descripción 
 
-Página web diseñada como parte evaluativa del segmento de HTML en [Singulars](https://github.com/r2abreu/Singulars2020).
+Página web diseñada como parte del segmento de HTML en [Singulars](https://github.com/r2abreu/Singulars2020).
 
 ## Instalación
 
