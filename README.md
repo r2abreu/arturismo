@@ -1,10 +1,12 @@
-# Piedra, papel y tijeras dojo! 
+# Kozue Mirai
+
+Empresa de diseño de interiores ficticia.
 
 ![Screenshot](assets/screenshot.png)
 
 ## Descripción 
 
-El clásico juego de piedra y tijeras creado en JavaScript, parte evaluativa del segmento de JavaScript en [Singulars](https://github.com/r2abreu/Singulars2020).
+Página web diseñada como parte evaluativa del segmento de HTML en [Singulars](https://github.com/r2abreu/Singulars2020).
 
 ## Instalación
 
@@ -12,4 +14,4 @@ No requiere.
 
 ## Instrucciones
 
-Elije una tirada y compite contra el CPU.
+No requiere.
